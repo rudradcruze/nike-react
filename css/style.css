@@ -3,6 +3,10 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
+h1,h2 {
+    font-family: 'Bebas Neue', cursive;
+}
+
 /* Reusable Components */
 .btn-cll-primary {
     background: linear-gradient(180deg, #3D4FF3 0%, #3543BC 100%);
@@ -18,7 +22,6 @@ body {
     font-size: 80px;
     line-height: 96px;
     color: #363958;
-    font-family: 'Bebas Neue', cursive;
 }
 
 .header-info h1 span {
@@ -31,4 +34,36 @@ body {
     font-size: 16px;
     line-height: 26px;
     color: #3E3E3E;
+}
+
+/* CASUAL SHOES */
+.card-img {
+    background: #F1F1F1;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+.card-img img {
+    width: 80% !important;
+}
+
+.card-title h5 {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    color: #363958;
+}
+
+.pricing_section p {
+    font-weight: 600;
+    font-size: 36px;
+    color: #FA804C;
+}
+
+/* Formal Shoes */
+#formal-shoes .card-img {
+    background: none;
 }
