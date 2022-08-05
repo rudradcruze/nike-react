@@ -67,3 +67,13 @@ h1,h2 {
 #formal-shoes .card-img {
     background: none;
 }
+
+/* features section */
+
+.features-items img {
+    width: 25%;
+}
+
+#features .features-bottom-img {
+    width: 80% !important;
+}
